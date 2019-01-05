@@ -1,0 +1,38 @@
+{
+  "name": "crudapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "bcrypt-promise": "^2.0.0",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "jsonwebtoken": "^8.3.0",
+    "morgan": "^1.9.0",
+    "mysql": "*",
+    "mysql2": "^1.5.1",
+    "parse-error": "^0.2.0",
+    "passport": "^0.4.0",
+    "passport-http": "*",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "pdfkit": "^0.8.3",
+    "pdfmake": "^0.1.36",
+    "sequelize": "^4.31.2"
+  }
+}
